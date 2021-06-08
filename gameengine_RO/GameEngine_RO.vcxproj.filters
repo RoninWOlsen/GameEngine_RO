@@ -21,13 +21,22 @@
     <ClCompile Include="EngineMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Engine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Systems\AnimationSystem.cpp">
       <Filter>Systems</Filter>
     </ClCompile>
     <ClCompile Include="Systems\RenderingSystem.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\InputSystem.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\MovementSystem.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\PhysicsSystem.cpp">
       <Filter>Systems</Filter>
     </ClCompile>
   </ItemGroup>
@@ -45,6 +54,15 @@
       <Filter>Systems</Filter>
     </ClInclude>
     <ClInclude Include="Systems\RenderingSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\InputSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\MovementSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\PhysicsSystem.h">
       <Filter>Systems</Filter>
     </ClInclude>
   </ItemGroup>

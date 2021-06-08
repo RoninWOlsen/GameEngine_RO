@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine_RO", "GameEngine_RO\GameEngine_RO.vcxproj", "{EC3E6A03-DA56-40EE-B129-9075D56E7249}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game2021", "Game2021\Game2021.vcxproj", "{088D941D-0F29-4E69-AFB2-DAB5D21ED202}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC3E6A03-DA56-40EE-B129-9075D56E7249} = {EC3E6A03-DA56-40EE-B129-9075D56E7249}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
